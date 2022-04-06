@@ -1,4 +1,4 @@
-import { compose } from '@/shared/helpers';
-import { withRouter } from './with-router';
+import { compose } from '@/shared/helpers'
+import { withRouter } from './with-router'
 
-export const withProviders = compose(withRouter);
+export const withProviders = compose(withRouter)

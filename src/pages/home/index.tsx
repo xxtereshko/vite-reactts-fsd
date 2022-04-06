@@ -3,7 +3,7 @@ const HomePage = () => {
     <p>
       Edit <code>./src/pages/home</code>
     </p>
-  );
-};
+  )
+}
 
-export default HomePage;
+export default HomePage
