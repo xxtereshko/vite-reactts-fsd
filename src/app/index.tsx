@@ -1,9 +1,9 @@
-import { Routing } from '@/pages'
-import './index.scss'
-import { withProviders } from './providers'
+import { Routing } from '@/pages';
+import './index.scss';
+import { withProviders } from './providers';
 
 const App = () => {
-  return <Routing />
-}
+  return <Routing />;
+};
 
-export default withProviders(App)
+export default withProviders(App);
