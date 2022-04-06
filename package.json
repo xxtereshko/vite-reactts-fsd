@@ -1,11 +1,12 @@
 {
   "name": "vite-fsd-template",
   "version": "0.0.0",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
+    "format": "prettier --config ./.prettierrc -w 'src/**/*.{tsx,ts}' && git update-index --again"
   },
   "dependencies": {
     "react": "^17.0.2",
